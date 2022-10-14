@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Image Album</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="Shortcut icon" type="image/png" href="album.png">
+</head>
+
+<body>
+	<h1 class="rainbow">Backgrounds</h1>
+	<div class="scene">
+		<div class="card">
+			<!--  Front of the card	-->
+			<div class="card__face card__face--front">
+				<img src="shutter/st1.jpg" alt="" />
+			</div>
+			<!--  Back of the card	-->
+			<div class="card__face card__face--back">
+				<div class="dwn">
+			         <a href="shutter/st1.jpg" download="Stranger Things">Download</a>
+		     	</div>
+			</div>
+		</div>
+	</div>
+	<div class="imgages">
+		<img src="shutter/squid.jpg">
+		<img src="shutter/st.jpg">
+		<img src="shutter/st2.jpg">
+		<img src="shutter/sunrise.jpg">
+		<img src="shutter/venom.jpg">
+		<img src="shutter/zone.jpg">
+		<img src="shutter/greeny.jpg">
+		 <img src="shutter/hacker.jpg">
+		 <img src="shutter/heist.jpg">
+		 <img src="shutter/heist2.jpg">
+		 <img src="shutter/marvel.jpg">
+		 <img src="shutter/moon knight.jpg">
+		 <img src="shutter/motive1.jpg">
+		 <img src="shutter/motive2.jpg">
+		 <img src="shutter/motive3.jpg">
+		 <img src="shutter/pirate.jpg">
+		 <img src="shutter/rog.jpg">
+		 <img src="shutter/spidy.jpg">	
+</div>
+</body>
+  <script>
+	var card = document.querySelector('.card');
+card.addEventListener('click', function(){
+	card.classList.toggle('is-flipped');
+});
+  </script>
+</html>
